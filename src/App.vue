@@ -171,7 +171,7 @@
               Tools
             </h1>
             <p style="color: white; text-align: left; max-width: 500px">
-              While developing, I use many tools to help get the job done. A few of my most utilized tools are:
+              While developing, I use quite a few tools to get help get the job done. Outside of frameworks, libraries, etc, here few of my most utilized tools are:
               <ul> 
                 <li>Git</li>
                 <li>GitHub</li>
@@ -180,6 +180,7 @@
               <li>VS Code</li>
               <li>NPM</li>
               <li>Bash</li>
+            
               
               </ul>
             </p>
@@ -275,7 +276,7 @@
         data-aos="fade-in" class="col-md-6 col-sm-12" >
               <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Digital Asset Monitor</h1>
             
-            <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A minimalist approach to tracking the price action and news for the top three digital asssets.</i><br/><br/>Digital Asset Monitor provides users with prices, news articles and latest tweets for the top three cryptocurrencies by market cap.</p></div>
+            <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A minimalist approach to tracking the price action and news for the top three digital assets.</i><br/><br/>Digital Asset Monitor provides users with prices, news articles and latest tweets for the top three cryptocurrencies by market cap.</p></div>
            
             <hr style="border-top: 1px solid white; margin: 20px"/>
                      
