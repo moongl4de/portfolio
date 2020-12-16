@@ -97,7 +97,7 @@
     <section
       class="sectionDiv"
       id="technologies"
-      style="height: 100vh; background-color: #171c21; padding-top: 5%"
+      style="height: 120vh; background-color: #171c21; padding-top: 1%"
     >
       <div class="container">
         <div class="row d-flex justify-content-between">
@@ -106,7 +106,7 @@
         data-aos="fade-in" class="col-md-2 col-sm-2 col-xs-2" style="margin: 0 auto">
             <i
               style="color: #f0db4f; "
-              class="fab fa-js fa-10x"
+              class="fab fa-js fa-8x"
             ></i>
           </div>
           <div         data-aos-easing="ease-in-out"
@@ -114,7 +114,7 @@
         data-aos="fade-in" class="col-md-2 col-sm-2 col-xs-2" style="margin: 0 auto">
             <i
               style="color: #3fb27f; "
-              class="fab fa-vuejs fa-10x"
+              class="fab fa-vuejs fa-8x"
             ></i>
           </div>
           <div         data-aos-easing="ease-in-out"
@@ -122,7 +122,7 @@
         data-aos="fade-in" class="col-md-2 col-sm-2 col-xs-2" style="margin: 0 auto">
             <i
               style="color: #7fc728; "
-              class="fab fa-node fa-10x"
+              class="fab fa-node fa-8x"
             ></i>
           </div>
 
@@ -139,7 +139,7 @@
         <hr />
         <div class="row">
           <div         data-aos-easing="ease-in-out"
-          data-aos-delay="800"
+          data-aos-delay="600"
         data-aos-duration="2000"
         data-aos="fade-in" class="col-md-4 col-xs-2 mx-auto">
             <h1 style="color: #1594f3; text-align: left; margin: 20px">
@@ -164,7 +164,7 @@
           <br />
           <hr id="techLine"/>
           <div          data-aos-easing="ease-in-out"
-          data-aos-delay="1000"
+          data-aos-delay="800"
         data-aos-duration="2000"
         data-aos="fade-in" class="col-md-4 col-xs-2 mx-auto">
             <h1 style="color: #1594f3; text-align: left; margin: 20px">
@@ -194,7 +194,7 @@
         data-aos-easing="ease-in-out"
         data-aos-duration="1000"
         data-aos="fade-in"
-        style="color: white; margin-top: 30px;"
+        style="color: white; margin-top: 10px; position: relative; top: -20px;"
         data-aos-delay="1500"
   
         ><button
@@ -213,7 +213,7 @@
         <section
       class="sectionDiv"
       id="portfolio"
-      style="height: 200vh; background-color: #171c21; padding-top: 8% margin-bottom: 0px"
+      style="height: 220vh; background-color: #171c21; padding-top: 10%; margin-bottom: 0px"
     >
     
     <h1 data-aos-easing="ease-in-out" id="projectHeader"
