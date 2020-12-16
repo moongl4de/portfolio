@@ -213,7 +213,7 @@
         <section
       class="sectionDiv"
       id="portfolio"
-      style="height: 220vh; background-color: #171c21; padding-top: 10%; margin-bottom: 0px"
+      style="height: 240vh; background-color: #171c21; padding-top: 10%; margin-bottom: 0px"
     >
     
     <h1 data-aos-easing="ease-in-out" id="projectHeader"
@@ -338,10 +338,16 @@
       <div class="row">
                <div class="mx-auto ">
                              
-                                            <h6 class=" col-12"  id="build" style="text-align: center !important; color: white; font-size: 22px;">Let's <span class="blueSpan">build</span> something.</h6>
+                                            <h6 data-aos-easing="ease-in-out"
+          data-aos-delay="0"
+        data-aos-duration="2000"
+        data-aos="fade-in" class=" col-12"  id="build" style="text-align: center !important; color: white; font-size: 22px;">Let's <span class="blueSpan">build</span> something.</h6>
                                   
                                   <br/>
-                                        <form style=""
+                                        <form data-aos-easing="ease-in-out"
+          data-aos-delay="1500"
+        data-aos-duration="2000"
+        data-aos="fade-in" style=""
                                             method="post" action="https://formspree.io/mbjodlrz"
                                             data-form-title="CONTACT">
                                             <input type="hidden" data-form-email="true">
@@ -510,6 +516,7 @@ html {
 
   #contact {
     margin-bottom: 10%;
+    margin-top: 500px;
     height: 80vh;
   }
 }
