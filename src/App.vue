@@ -6,7 +6,7 @@
       effect="net"
       :options="options"
     ></v-vanta>
-    <section
+    <section id="topSection"
       class="hero-area overlay"
       style="background-image: url('images/banner/hero-area.jpg')"
     >
@@ -20,7 +20,7 @@
 
         <p data-aos="fade-in" class="tagline" style="letter-spacing: 4px">
           <span style="color: #1594f3 !important; letter-spacing: 4px">
-            UI Engineer
+            UI Engineer 
           </span>
           | Blockchain Evangelist
         </p>
@@ -151,10 +151,13 @@
               also have experience with:
               <ul>
                 <li>Express</li>
+                <li>Bootstrap</li>
                 <li>jQuery</li>
                 <li>React</li>
                 <li>MySQL</li>
                 <li>MongoDB</li>
+                <li>FileMaker Pro</li>
+                
               </ul>
             </p>
           </div>
@@ -169,11 +172,15 @@
             </h1>
             <p style="color: white; text-align: left; max-width: 500px">
               While developing, I use many tools to help get the job done. A few of my most utilized tools are:
-              <ul> <li>Git/GitHub</li>
+              <ul> 
+                <li>Git</li>
+                <li>GitHub</li>
               <li>Postman</li>
               <li>Chrome Dev Tools</li>
               <li>VS Code</li>
-              <li>Gitlab</li>
+              <li>NPM</li>
+              <li>Bash</li>
+              
               </ul>
             </p>
           </div>
@@ -206,7 +213,7 @@
         <section
       class="sectionDiv"
       id="portfolio"
-      style="height: 200vh; background-color: #171c21; padding-top: 8%"
+      style="height: 200vh; background-color: #171c21; padding-top: 8% margin-bottom: 0px"
     >
     
     <h1 data-aos-easing="ease-in-out" id="projectHeader"
@@ -327,6 +334,44 @@
 		<source src="images/banner/hero-video.mp4" type="video/mp4">
 	</video> -->
     </section>
+    <section id="contact" style="background-color: #171c21; padding-top: 2%; padding-bottom: 10%; !important;" class='container'>
+      <div class="row">
+               <div class="mx-auto ">
+                             
+                                            <h6 class=" col-12"  id="build" style="text-align: center !important; color: white; font-size: 22px;">Let's <span class="blueSpan">build</span> something.</h6>
+                                  
+                                  <br/>
+                                        <form style=""
+                                            method="post" action="https://formspree.io/mbjodlrz"
+                                            data-form-title="CONTACT">
+                                            <input type="hidden" data-form-email="true">
+                                            <div class="form-group">
+                                                <input type="text" class=" form-control"
+                                                    name="name" required="" placeholder="Name*" data-form-field="Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class=" form-control"
+                                                    name="email" required="" placeholder="Email*"
+                                                    data-form-field="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="tel" class=" form-control"
+                                                    name="phone" placeholder="Phone" data-form-field="Phone">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea style="border-radius: 0px;" class="wow zoomIn form-control fadeInLeftBig"
+                                                    name="message" placeholder="Message" rows="7"
+                                                    data-form-field="Message"></textarea>
+                                            </div>
+                                            <button  id="button" style="margin: 0 auto;" type="submit"
+                                                class="btn btn-lg btn-dark col-sm-12 wow zoomIn">submit</button>
+                                                
+                                        </form>
+                               
+                                    </div>
+                                    </div>
+    </section>
+
   </div>
 </template>
 
@@ -343,6 +388,7 @@ export default {
   components: { VVanta },
   created() {
     AOS.init();
+    document.title = "Alex Gignilliat";
   },
   mounted() {
     this.headerChange();
@@ -382,6 +428,7 @@ export default {
 html {
   scroll-behavior: smooth;
   max-width: 100%;
+  background-color: #171c21;
 }
 
 .blueSpan {
@@ -392,6 +439,7 @@ html {
   html,
   body {
     background-color: #171c21;
+    padding: 0;
   }
 
   #vanta {
@@ -414,6 +462,7 @@ html {
 
   #portfolio {
     margin-top: 1000px;
+    margin-bottom: 800px;
   }
 
   h1 {
@@ -444,6 +493,35 @@ html {
 
   #techLine {
     border-top: 1px solid white;
+  }
+
+  #topSection {
+    position: relative;
+    top: -100px;
+  }
+
+  #about {
+    margin-top: 20%;
+  }
+
+  .portfolioCard {
+    border-radius: 8px;
+  }
+
+  #contact {
+    margin-bottom: 10%;
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #portfolio {
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+  }
+
+  #contact {
+    height: 87vh;
   }
 }
 
