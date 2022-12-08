@@ -20,10 +20,12 @@
 
         <p data-aos="fade-in" class="tagline" style="letter-spacing: 4px">
           <span style="color: #1594f3 !important; letter-spacing: 4px">
-            UI Engineer 
+            Front End Web Developer
           </span>
-          | Blockchain Evangelist
+        
         </p>
+        <br/>>
+        <p data-aos="fade-in" class="tagline" style="letter-spacing: 4px; font-size: 12px"><i>'Everything there is - divided by 21 million'</i></p>
         <!-- 
         <hr /> -->
         <a data-scroll href="#about" class=""
@@ -151,12 +153,13 @@
               also have experience with:
               <ul>
                 <li>Express</li>
+                  <li>FileMaker Pro</li>
                 <li>Bootstrap</li>
                 <li>jQuery</li>
-                <li>React</li>
                 <li>MySQL</li>
                 <li>MongoDB</li>
-                <li>FileMaker Pro</li>
+                <li>React</li>
+             
                 
               </ul>
             </p>
@@ -315,30 +318,14 @@
         data-aos-duration="2000"
         data-aos="fade-in" class="col-12 d-flex justify-content-center" style="color: white"><h3><a target="_blank" href="https://github.com/alexgignilliat/bandwagon"><i class="fab fa-github"></i> GitHub</a></h3></div>
       
+          </div> 
           </div>
-
-          
           </div>
-
-          
-
-          
-         
-            
-             
-          </div>
-           
         </div>
-  
-      <!-- <video autoplay muted loop class="hero-video">
-        asda
-		<source src="images/banner/hero-video.mp4" type="video/mp4">
-	</video> -->
     </section>
     <section id="contact" style="background-color: #171c21; padding-top: 2%; padding-bottom: 10%; !important;" class='container'>
       <div class="row">
-               <div class="mx-auto ">
-                             
+               <div class="mx-auto ">    
                                             <h6 data-aos-easing="ease-in-out"
           data-aos-delay="0"
         data-aos-duration="2000"
@@ -396,10 +383,11 @@ export default {
   created() {
     AOS.init();
     document.title = "Alex Gignilliat";
+    console.log('%c “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.” ', 'background: #222; color: #bada55');
+    
+
   },
-  mounted() {
-    this.headerChange();
-  },
+
   data() {
     return {
       introHeader: "",
