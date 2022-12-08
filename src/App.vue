@@ -20,7 +20,7 @@
 
         <p data-aos="fade-in" class="tagline" style="letter-spacing: 4px">
           <span style="color: #1594f3 !important; letter-spacing: 4px">
-            Front End Web Developer
+            Full Stack Web Developer
           </span>
         
         </p>
@@ -394,18 +394,23 @@ export default {
       colorVanta: "rgb(24, 154, 243)",
       backgroundColorVanta: "red",
       options: {
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 900.0,
-        minWidth: 100.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        points: 5.0,
-        spacing: 18.0,
-        color: "#1594f3",
-        backgroundColor: "#171C21",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 500.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
       },
+
+      //         gyroControls: false,
+        // minHeight: 900.0,
+        // minWidth: 100.0,
+        // scale: 1.0,
+        // scaleMobile: 1.0,
+        // points: 5.0,
+        // spacing: 18.0,
+        // color: "#1594f3",
+        // backgroundColor: "#171C21",
       methods: {
         headerChange: function () {
           this.introHeader = "hehrhsdjkfhs";
