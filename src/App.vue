@@ -1,41 +1,52 @@
 <template>
   <div id="app">
-    
-    <v-vanta id="vanta"
+
+    <v-vanta
+      id="vanta"
       style="background-color: red !important"
-      effect="net"
+      effect="waves"
       :options="options"
     ></v-vanta>
-    <section id="topSection"
+    <section
+      id="topSection"
       class="hero-area overlay"
       style="background-image: url('images/banner/hero-area.jpg')"
     >
-      <!-- <video autoplay muted loop class="hero-video">
-		<source src="images/banner/hero-video.mp4" type="video/mp4">
-	</video> -->
-      <div class="block" id="nameBox">
-        <h1 class="">
-          <span style="color: #1594f3 !important">Alex</span>Gignilliat
+
+      <div
+        class="block"
+        id="nameBox"
+      >
+        <h1 class="nameHeader">
+          <span style="color: #1594f3 !important">alex</span>gignilliat
         </h1>
 
-        <p data-aos="fade-in" class="tagline" style="letter-spacing: 4px">
+        <p
+          data-aos="fade-in"
+          class="tagline"
+          style="letter-spacing: 4px"
+        >
           <span style="color: #1594f3 !important; letter-spacing: 4px">
             Full Stack Web Developer
           </span>
-        
+
+          
+
         </p>
-        <br/>>
-        <p data-aos="fade-in" class="tagline" style="letter-spacing: 4px; font-size: 12px"><i>'Everything there is - divided by 21 million'</i></p>
+        <br />>
+
         <!-- 
         <hr /> -->
-        <a data-scroll href="#about" class=""
-          ><button
+        <a
+          data-scroll
+          href="#about"
+          class=""
+        ><button
             style="border-radius: 0px; min-width: 10%"
             class="btn portfolioButton hvr-underline-from-left"
           >
             <span style="color: #1594f3 !important">About </span> Me
-          </button></a
-        >
+          </button></a>
       </div>
     </section>
     <section
@@ -56,8 +67,7 @@
       >
         Specialize in developing
         <span style="color: #1594f3">
-          clean user interfaces & seamless user experiences</span
-        >.
+          clean user interfaces & seamless user experiences</span>.
       </h2>
       <h2
         data-aos-easing="ease-in-out"
@@ -88,13 +98,12 @@
         data-aos="fade-in"
         style="color: white"
         data-aos-delay="3000"
-        ><button
+      ><button
           style="border-radius: 0px; min-width: 10%"
           class="btn portfolioButton hvr-underline-from-left"
         >
           Technologies I Use
-        </button></a
-      >
+        </button></a>
     </section>
     <section
       class="sectionDiv"
@@ -103,25 +112,49 @@
     >
       <div class="container">
         <div class="row d-flex justify-content-between">
-          <div         data-aos-easing="ease-in-out"
-        data-aos-duration="800"
-        data-aos="fade-in" class="col-md-2 col-sm-2 col-xs-2" style="margin: 0 auto">
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos="fade-in"
+            class="col-md-2 col-sm-2 col-xs-2"
+            style="margin: 0 auto"
+          >
             <i
               style="color: #f0db4f; "
               class="fab fa-js fa-8x"
             ></i>
           </div>
-          <div         data-aos-easing="ease-in-out"
-        data-aos-duration="1500"
-        data-aos="fade-in" class="col-md-2 col-sm-2 col-xs-2" style="margin: 0 auto">
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1500"
+            data-aos="fade-in"
+            class="col-md-2 col-sm-2 col-xs-2"
+            style="margin: 0 auto"
+          >
             <i
               style="color: #3fb27f; "
               class="fab fa-vuejs fa-8x"
             ></i>
           </div>
-          <div         data-aos-easing="ease-in-out"
-        data-aos-duration="2000"
-        data-aos="fade-in" class="col-md-2 col-sm-2 col-xs-2" style="margin: 0 auto">
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-duration="2000"
+            data-aos="fade-in"
+            class="col-md-2 col-sm-2 col-xs-2"
+            style="margin: 0 auto"
+          >
+            <i
+              style="color: #61DBFB; "
+              class="fab fa-react fa-8x"
+            ></i>
+          </div>
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-duration="2000"
+            data-aos="fade-in"
+            class="col-md-2 col-sm-2 col-xs-2"
+            style="margin: 0 auto"
+          >
             <i
               style="color: #7fc728; "
               class="fab fa-node fa-8x"
@@ -140,231 +173,441 @@
         </div>
         <hr />
         <div class="row">
-          <div         data-aos-easing="ease-in-out"
-          data-aos-delay="600"
-        data-aos-duration="2000"
-        data-aos="fade-in" class="col-md-4 col-xs-2 mx-auto">
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-delay="600"
+            data-aos-duration="2000"
+            data-aos="fade-in"
+            class="col-md-4 col-xs-2 mx-auto"
+          >
             <h1 style="color: #1594f3; text-align: left; margin: 20px">
               Technologies
             </h1>
-            <p class="technologyHeaders" style="color: white; text-align: left; max-width: 500px">
+            <p
+              class="technologyHeaders"
+              style="color: white; text-align: left; max-width: 500px"
+            >
               While I have used a myriad of technologies in my developer career,
               I have found myself mainly using <span style="color: #F0DB4F">JavaScript (ES6)</span>, <span style="color: #3FB27F">Vue</span> and <span style="color: #7FC728">Node</span>. I
               also have experience with:
-              <ul>
-                <li>Express</li>
-                  <li>FileMaker Pro</li>
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>React</li>
-             
-                
-              </ul>
+            <ul>
+              <li>Express</li>
+              <li>FileMaker Pro</li>
+              <li>Bootstrap</li>
+              <li>jQuery</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>React</li>
+
+            </ul>
             </p>
           </div>
           <br />
-          <hr id="techLine"/>
-          <div          data-aos-easing="ease-in-out"
-          data-aos-delay="800"
-        data-aos-duration="2000"
-        data-aos="fade-in" class="col-md-4 col-xs-2 mx-auto">
+          <hr id="techLine" />
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-delay="800"
+            data-aos-duration="2000"
+            data-aos="fade-in"
+            class="col-md-4 col-xs-2 mx-auto"
+          >
             <h1 style="color: #1594f3; text-align: left; margin: 20px">
               Tools
             </h1>
             <p style="color: white; text-align: left; max-width: 500px">
               While developing, I use quite a few tools to get help get the job done. Outside of frameworks, libraries, etc, here few of my most utilized tools are:
-              <ul> 
-                <li>Git</li>
-                <li>GitHub</li>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
               <li>Postman</li>
               <li>Chrome Dev Tools</li>
               <li>VS Code</li>
               <li>NPM</li>
               <li>Bash</li>
-            
-              
-              </ul>
+
+            </ul>
             </p>
           </div>
-          
+
         </div>
-        <br/>
-              <a
-        data-scroll
-        href="#portfolio"
-        class=""
-        data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
-        data-aos="fade-in"
-        style="color: white; margin-top: 10px; position: relative; top: -20px;"
-        data-aos-delay="1500"
-  
+        <br />
+        <a
+          data-scroll
+          href="#portfolio"
+          class=""
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+          data-aos="fade-in"
+          style="color: white; margin-top: 10px; position: relative; top: -20px;"
+          data-aos-delay="1500"
         ><button
-          style="border-radius: 0px; min-width: 30%"
-          class="btn portfolioButton hvr-underline-from-left"
-        >
-          View My Work
-        </button></a
-      >
+            style="border-radius: 0px; min-width: 30%"
+            class="btn portfolioButton hvr-underline-from-left"
+          >
+            View My Work
+          </button></a>
       </div>
       <!-- <video autoplay muted loop class="hero-video">
         asda
 		<source src="images/banner/hero-video.mp4" type="video/mp4">
 	</video> -->
     </section>
-        <section
+    <section
       class="sectionDiv"
       id="portfolio"
       style="height: 240vh; background-color: #171c21; padding-top: 10%; margin-bottom: 0px"
     >
-    
-    <h1 data-aos-easing="ease-in-out" id="projectHeader"
-    style="font-size: 100px;"
-          data-aos-delay="0"
+
+      <h1
+        data-aos-easing="ease-in-out"
+        id="projectHeader"
+        style="font-size: 60px;"
+        data-aos-delay="0"
         data-aos-duration="2000"
-        data-aos="fade-in"> Projects</h1>
-        <p style="">Always building. Always learning.</p>
-<div class="container" style="margin: 5% auto;">
+        data-aos="fade-in"
+      > Projects</h1>
+      <p style=""></p>
+      <div
+        class="container"
+        style="margin: 5% auto;"
+      >
         <div class="row ">
 
-                    <div class="col-md-12 portfolioCard" style="background-color: #313131">
+          <div
+            class="col-md-12 portfolioCard"
+            style="background-color: #313131"
+          >
             <div class="row">
-                                      <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos="fade-in" class="col-md-6 col-sm-12" >
-              <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">PI Legal</h1>
-            
-            <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A case management application for law firms to log payments, generate documents and monitor the progress of cases</i><br/><br/>PI Legal is a robust case management application currently being used by Cambre & Associates in Atlanta, Georgia. <br/><br/> Some of the most recent features I've implemented are report generation, an in-house API for client data retrieval, negotiation offer/demand tracking, statute of limitation alerts, an automated e-mail notification system.</p></div>
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-md-6 col-sm-12"
+              >
+                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Moonglade.ai</h1>  
 
-            <div class="col-md-6 col-xs-12">
-            <img data-aos-easing="ease-in-out"
-          data-aos-delay="100"
-        data-aos-duration="1400"
-        data-aos="fade-in" class="portfolioImg " src="../src/assets/PIscreenshot1.png"/>
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>moonglade.ai is an AI chatbot powered by OpenAI's ChatGPT-3 models.</i><br /><br />Moonglade.ai is a conversational AI platform that enables users and organizations quickly create natural language-based intelligent chatbot by leveraging OpenAI's large-scale language models. <br><br> Built with React, Node.js, Express & OpenAI.</p>
+              </div>
+
+              <div class="col-md-6 col-xs-12">
+                <img
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="100"
+                  data-aos-duration="1400"
+                  data-aos="fade-in"
+                  class="portfolioImg "
+                  src="../src/assets/moongladeai.gif"
+                />
+              </div>
+
+              <hr style="border-top: 1px solid white; margin: 20px" />
+
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="2000"
+                data-aos="fade-in"
+                class="col-12 d-flex justify-content-center"
+                style="color: white"
+              >
+              <h3><a
+                    target="_blank"
+                    href="https://github.com/moongl4de/ChatGPT-React"
+                  ><i class="fab fa-github"></i> GitHub</a></h3>
+              </div>
+
             </div>
 
-           
-            <hr style="border-top: 1px solid white; margin: 20px"/>
-                     
-             <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="2000"
-        data-aos="fade-in" class="col-12 d-flex justify-content-center" style="color: white"><h6><i>Proprietary Application / Private Repo</i></h6></div>
-      
           </div>
-
+          <p style="margin: 20px;"></p>
           
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos="fade-in"
+            class="col-md-12 portfolioCard"
+            style="background-color: #0D0D0D"
+          >
+            <div class="row">
+
+              <div class="col-md-6 col-xs-12">
+                <img
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  data-aos="fade-in"
+                  class="portfolioImg "
+                  src="../src/assets/wowdb.gif"
+                />
+              </div>
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-md-6 col-sm-12"
+              >
+                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">World of Warcraft DB</h1>
+
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A database for the best possible items for each class in World of Warcraft: Classic</i><br /> <br />Do you really have time to scour countless websites, compare every item in the game & run mathematical equations to get that 0.01% advantage over the competition? World of Warcraft DB does all of the heavy lifting for you. Now go kill some dragons.<br /><br />Built with React, Node.js, Express and MySQL/Sequelize.</p>
+              </div>
+
+              <hr style="border-top: 1px solid white; margin: 20px" />
+
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-12 d-flex justify-content-center"
+                style="color: white"
+              >
+                <h3><a
+                    target="_blank"
+                    href="https://github.com/moongl4de/world-of-warcraft-db"
+                  ><i class="fab fa-github"></i> GitHub</a></h3>
+              </div>
+
+            </div>
+
           </div>
 
           <p style="margin: 20px;"></p>
 
-                    <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos="fade-in" class="col-md-12 portfolioCard" style="background-color: #0D0D0D">
+          
+
+          <div
+            class="col-md-12 portfolioCard"
+            style="background-color: #313131"
+          >
+            <div class="row">
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-md-6 col-sm-12"
+              >
+                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">PI Legal</h1>
+
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A case management application for law firms to log payments, generate documents and monitor the progress of cases</i><br /><br />PI Legal is a robust case management application currently being used by Cambre & Associates in Atlanta, Georgia. <br /><br /> Some of the most recent features I've implemented are report generation, an in-house API for client data retrieval, negotiation offer/demand tracking, statute of limitation alerts, an automated e-mail notification system.</p>
+              </div>
+
+              <div class="col-md-6 col-xs-12">
+                <img
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="100"
+                  data-aos-duration="1400"
+                  data-aos="fade-in"
+                  class="portfolioImg "
+                  src="../src/assets/PIscreenshot1.png"
+                />
+              </div>
+
+              <hr style="border-top: 1px solid white; margin: 20px" />
+
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="2000"
+                data-aos="fade-in"
+                class="col-12 d-flex justify-content-center"
+                style="color: white"
+              >
+                <h6><i>Proprietary Application / Private Repo</i></h6>
+              </div>
+
+            </div>
+
+          </div>
+
+          <p style="margin: 20px;"></p>
+
+          <div
+            data-aos-easing="ease-in-out"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos="fade-in"
+            class="col-md-12 portfolioCard"
+            style="background-color: #0D0D0D"
+          >
             <div class="row">
 
-            <div class="col-md-6 col-xs-12">
-            <img data-aos-easing="ease-in-out"
-          data-aos-delay="100"
-        data-aos-duration="1000"
-        data-aos="fade-in" class="portfolioImg " src="https://raw.githubusercontent.com/alexgignilliat/Digital-Asset-Monitor/master/DAM2ss.png"/>
+              <div class="col-md-6 col-xs-12">
+                <img
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  data-aos="fade-in"
+                  class="portfolioImg "
+                  src="https://raw.githubusercontent.com/alexgignilliat/Digital-Asset-Monitor/master/DAM2ss.png"
+                />
+              </div>
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-md-6 col-sm-12"
+              >
+                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Digital Asset Monitor</h1>
+
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A minimalist approach to tracking the price action and news for the top three digital assets.</i><br /><br />Digital Asset Monitor provides users with prices, news articles and latest tweets for the top three cryptocurrencies by market cap.</p>
+              </div>
+
+              <hr style="border-top: 1px solid white; margin: 20px" />
+
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-12 d-flex justify-content-center"
+                style="color: white"
+              >
+                <h3><a
+                    target="_blank"
+                    href="https://github.com/moongl4de/digital-asset-monitor"
+                  ><i class="fab fa-github"></i> GitHub</a></h3>
+              </div>
+
             </div>
-                        <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos="fade-in" class="col-md-6 col-sm-12" >
-              <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Digital Asset Monitor</h1>
-            
-            <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A minimalist approach to tracking the price action and news for the top three digital assets.</i><br/><br/>Digital Asset Monitor provides users with prices, news articles and latest tweets for the top three cryptocurrencies by market cap.</p></div>
-           
-            <hr style="border-top: 1px solid white; margin: 20px"/>
-                     
-             <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos="fade-in" class="col-12 d-flex justify-content-center" style="color: white"><h3><a target="_blank" href="https://github.com/alexgignilliat/bandwagon"><i class="fab fa-github"></i> GitHub</a></h3></div>
-      
+
           </div>
 
-          
-          </div>
+          <p style="margin: 20px;"></p>
 
-                              <p style="margin: 20px;"></p>
-          
           <div class="col-md-12 portfolioCard">
             <div class="row">
-            <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos="fade-in" class="col-md-6 col-sm-12" >
-              <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Bandwagon</h1>
-            
-            <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A digital music streaming platform designed with listeners and artists in mind.</i><br/><br/>Users are allotted a number of tokens based on their subscription plan. Every time a user streams a song, a microtransaction takes place sending a fraction of a token directly to the artist. This model completely removes middlemen cutting into the artists' profits. <br/><br/> Future development roadmap entails utilizing <span class="blueSpan">XRP</span> instead of the Bandwagon token.</p></div>
-            <div class="col-md-6 col-xs-12">
-            <img data-aos-easing="ease-in-out"
-          data-aos-delay="100"
-        data-aos-duration="1400"
-        data-aos="fade-in" class="portfolioImg " src="https://raw.githubusercontent.com/alexgignilliat/bandwagon/master/client/src/img/bandwagon-listener.png"/>
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos="fade-in"
+                class="col-md-6 col-sm-12"
+              >
+                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Bandwagon</h1>
+
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A digital music streaming platform designed with listeners and artists in mind.</i><br /><br />Users are allotted a number of tokens based on their subscription plan. Every time a user streams a song, a microtransaction takes place sending a fraction of a token directly to the artist. This model completely removes middlemen cutting into the artists' profits. <br /><br /> Future development roadmap entails utilizing <span class="blueSpan">XRP</span> instead of the Bandwagon token.</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <img
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="100"
+                  data-aos-duration="1400"
+                  data-aos="fade-in"
+                  class="portfolioImg "
+                  src="https://raw.githubusercontent.com/alexgignilliat/bandwagon/master/client/src/img/bandwagon-listener.png"
+                />
+              </div>
+
+              <hr style="border-top: 1px solid white; margin: 20px" />
+
+              <div
+                data-aos-easing="ease-in-out"
+                data-aos-delay="0"
+                data-aos-duration="2000"
+                data-aos="fade-in"
+                class="col-12 d-flex justify-content-center"
+                style="color: white"
+              >
+                <h3><a
+                    target="_blank"
+                    href="https://github.com/moongl4de/bandwagon"
+                  ><i class="fab fa-github"></i> GitHub</a></h3>
+              </div>
+
             </div>
-           
-            <hr style="border-top: 1px solid white; margin: 20px"/>
-                     
-             <div data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="2000"
-        data-aos="fade-in" class="col-12 d-flex justify-content-center" style="color: white"><h3><a target="_blank" href="https://github.com/alexgignilliat/bandwagon"><i class="fab fa-github"></i> GitHub</a></h3></div>
-      
-          </div> 
-          </div>
           </div>
         </div>
+      </div>    <br><br><br>    <br><br><br>    <br><br>
     </section>
-    <section id="contact" style="background-color: #171c21; padding-top: 2%; padding-bottom: 10%; !important;" class='container'>
+    <br><br><br>    <br><br>
+    <!-- <section
+      id="contact"
+      style="background-color: #171c21; padding-top: 2%; padding-bottom: 10%; !important;"
+      class='container'
+    >
       <div class="row">
-               <div class="mx-auto ">    
-                                            <h6 data-aos-easing="ease-in-out"
-          data-aos-delay="0"
-        data-aos-duration="2000"
-        data-aos="fade-in" class=" col-12"  id="build" style="text-align: center !important; color: white; font-size: 22px;">Let's <span class="blueSpan">build</span> something.</h6>
-                                  
-                                  <br/>
-                                        <form data-aos-easing="ease-in-out"
-          data-aos-delay="1500"
-        data-aos-duration="2000"
-        data-aos="fade-in" style=""
-                                            method="post" action="https://formspree.io/mbjodlrz"
-                                            data-form-title="CONTACT">
-                                            <input type="hidden" data-form-email="true">
-                                            <div class="form-group">
-                                                <input type="text" class=" form-control"
-                                                    name="name" required="" placeholder="Name*" data-form-field="Name">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class=" form-control"
-                                                    name="email" required="" placeholder="Email*"
-                                                    data-form-field="Email">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="tel" class=" form-control"
-                                                    name="phone" placeholder="Phone" data-form-field="Phone">
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea style="border-radius: 0px;" class="wow zoomIn form-control fadeInLeftBig"
-                                                    name="message" placeholder="Message" rows="7"
-                                                    data-form-field="Message"></textarea>
-                                            </div>
-                                            <button  id="button" style="margin: 0 auto;" type="submit"
-                                                class="btn btn-lg btn-dark col-sm-12 wow zoomIn">submit</button>
-                                                
-                                        </form>
-                               
-                                    </div>
-                                    </div>
-    </section>
+        <div class="mx-auto ">
+          <h6
+            data-aos-easing="ease-in-out"
+            data-aos-delay="0"
+            data-aos-duration="2000"
+            data-aos="fade-in"
+            class=" col-12"
+            id="build"
+            style="text-align: center !important; color: white; font-size: 22px;"
+          >Let's <span class="blueSpan">build</span> something.</h6>
+
+          <br />
+          <form
+            data-aos-easing="ease-in-out"
+            data-aos-delay="1500"
+            data-aos-duration="2000"
+            data-aos="fade-in"
+            style=""
+            method="post"
+            action="https://formspree.io/mbjodlrz"
+            data-form-title="CONTACT"
+          >
+            <input
+              type="hidden"
+              data-form-email="true"
+            >
+            <div class="form-group">
+              <input
+                type="text"
+                class=" form-control"
+                name="name"
+                required=""
+                placeholder="Name*"
+                data-form-field="Name"
+              >
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class=" form-control"
+                name="email"
+                required=""
+                placeholder="Email*"
+                data-form-field="Email"
+              >
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                class=" form-control"
+                name="phone"
+                placeholder="Phone"
+                data-form-field="Phone"
+              >
+            </div>
+            <div class="form-group">
+              <textarea
+                style="border-radius: 0px;"
+                class="wow zoomIn form-control fadeInLeftBig"
+                name="message"
+                placeholder="Message"
+                rows="7"
+                data-form-field="Message"
+              ></textarea>
+            </div>
+            <button
+              id="button"
+              style="margin: 0 auto;"
+              type="submit"
+              class="btn btn-lg btn-dark col-sm-12 wow zoomIn"
+            >submit</button>
+
+          </form>
+
+        </div>
+      </div>
+    </section> -->
 
   </div>
 </template>
@@ -383,9 +626,10 @@ export default {
   created() {
     AOS.init();
     document.title = "Alex Gignilliat";
-    console.log('%c “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.” ', 'background: #222; color: #bada55');
-    
-
+    console.log(
+      "%c “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.” ",
+      "background: #222; color: #bada55"
+    );
   },
 
   data() {
@@ -393,24 +637,23 @@ export default {
       introHeader: "",
       colorVanta: "rgb(24, 154, 243)",
       backgroundColorVanta: "red",
-      options: {
+       options: {
             mouseControls: true,
             touchControls: true,
             minHeight: 500.00,
             minWidth: 200.00,
             scale: 1.00,
             scaleMobile: 1.00
-      },
-
+        },
       //         gyroControls: false,
-        // minHeight: 900.0,
-        // minWidth: 100.0,
-        // scale: 1.0,
-        // scaleMobile: 1.0,
-        // points: 5.0,
-        // spacing: 18.0,
-        // color: "#1594f3",
-        // backgroundColor: "#171C21",
+      // minHeight: 900.0,
+      // minWidth: 100.0,
+      // scale: 1.0,
+      // scaleMobile: 1.0,
+      // points: 5.0,
+      // spacing: 18.0,
+      // color: "#1594f3",
+      // backgroundColor: "#171C21",
       methods: {
         headerChange: function () {
           this.introHeader = "hehrhsdjkfhs";
@@ -465,9 +708,9 @@ html {
     margin-bottom: 800px;
   }
 
-  h1 {
+  /* h1 {
     font-size: 40px !important;
-  }
+  } */
 
   h2 {
     font-size: 20px;
@@ -504,15 +747,16 @@ html {
     margin-top: 20%;
   }
 
-  .portfolioCard {
-    border-radius: 8px;
-  }
 
   #contact {
     margin-bottom: 10%;
     margin-top: 500px;
     height: 80vh;
   }
+}
+
+h1 {
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 360px) {
@@ -545,7 +789,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: #313131;
-  padding: 10px;
+  padding-top: 40px;
 }
 
 #nameBox {
@@ -610,10 +854,10 @@ body {
 }
 
 .hero-area .block h1 {
-  font-size: 90px;
+  font-size: 70px;
   color: #fff;
-  text-transform: capitalize;
-  font-weight: 700;
+  /* text-transform: capitalize; */
+  font-weight: 100;
   margin-bottom: 20px;
 }
 
