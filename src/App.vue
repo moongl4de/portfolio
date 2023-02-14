@@ -536,9 +536,7 @@
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import "bootstrap/dist/css/bootstrap.css";
-// import VVanta from "vue-vanta";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import AOS from "aos";
