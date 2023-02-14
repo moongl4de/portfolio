@@ -1,16 +1,15 @@
 <template>
   <div id="app">
 
-    <v-vanta
+    <!-- <v-vanta
       id="vanta"
       style="background-color: red !important"
       effect="waves"
       :options="options"
-    ></v-vanta>
+    ></v-vanta> -->
     <section
       id="topSection"
       class="hero-area overlay"
-      style="background-image: url('images/banner/hero-area.jpg')"
     >
 
       <div
@@ -20,23 +19,16 @@
         <h1 class="nameHeader">
           <span style="color: #1594f3 !important">alex</span>gignilliat
         </h1>
-
         <p
           data-aos="fade-in"
           class="tagline"
           style="letter-spacing: 4px"
         >
           <span style="color: #1594f3 !important; letter-spacing: 4px">
-            Full Stack Web Developer
+            Full Stack Developer
           </span>
-
-          
-
         </p>
-        <br />>
-
-        <!-- 
-        <hr /> -->
+        <br />
         <a
           data-scroll
           href="#about"
@@ -61,7 +53,7 @@
 
       <h2
         data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
+        data-aos-duration="500"
         data-aos="fade-in"
         style="color: white"
       >
@@ -71,23 +63,23 @@
       </h2>
       <h2
         data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
+        data-aos-duration="500"
+        data-aos="fade-in"
+        style="color: white"
+        data-aos-delay="500"
+      >
+        Passionate about the role of
+        <span style="color: #1594f3"> web apps in financial technology, AI & Web3</span>.
+      </h2>
+      <h2
+        data-aos-easing="ease-in-out"
+        data-aos-duration="500"
         data-aos="fade-in"
         style="color: white"
         data-aos-delay="1000"
       >
-        Passionate about the role of
-        <span style="color: #1594f3"> web apps in financial technology</span>.
-      </h2>
-      <h2
-        data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
-        data-aos="fade-in"
-        style="color: white"
-        data-aos-delay="2000"
-      >
-        Dedicated to enabling the
-        <span style="color: #1594f3"> internet of value</span>.
+        Obsessed with 
+        <span style="color: #1594f3"> continuous learning, solving problems... and coffee</span>.
       </h2>
       <a
         data-scroll
@@ -97,7 +89,7 @@
         data-aos-duration="1000"
         data-aos="fade-in"
         style="color: white"
-        data-aos-delay="3000"
+        data-aos-delay="1500"
       ><button
           style="border-radius: 0px; min-width: 10%"
           class="btn portfolioButton hvr-underline-from-left"
@@ -108,9 +100,9 @@
     <section
       class="sectionDiv"
       id="technologies"
-      style="height: 120vh; background-color: #171c21; padding-top: 1%"
+ 
     >
-      <div class="container">
+      <div class="container" id="techTop">
         <div class="row d-flex justify-content-between">
           <div
             data-aos-easing="ease-in-out"
@@ -121,7 +113,7 @@
           >
             <i
               style="color: #f0db4f; "
-              class="fab fa-js fa-8x"
+              class="fab fa-js fa-5x"
             ></i>
           </div>
           <div
@@ -133,7 +125,7 @@
           >
             <i
               style="color: #3fb27f; "
-              class="fab fa-vuejs fa-8x"
+              class="fab fa-vuejs fa-5x"
             ></i>
           </div>
           <div
@@ -145,7 +137,7 @@
           >
             <i
               style="color: #61DBFB; "
-              class="fab fa-react fa-8x"
+              class="fab fa-react fa-5x"
             ></i>
           </div>
           <div
@@ -157,7 +149,7 @@
           >
             <i
               style="color: #7fc728; "
-              class="fab fa-node fa-8x"
+              class="fab fa-node fa-5x"
             ></i>
           </div>
 
@@ -180,7 +172,7 @@
             data-aos="fade-in"
             class="col-md-4 col-xs-2 mx-auto"
           >
-            <h1 style="color: #1594f3; text-align: left; margin: 20px">
+            <h1 class="techH1" >
               Technologies
             </h1>
             <p
@@ -188,16 +180,17 @@
               style="color: white; text-align: left; max-width: 500px"
             >
               While I have used a myriad of technologies in my developer career,
-              I have found myself mainly using <span style="color: #F0DB4F">JavaScript (ES6)</span>, <span style="color: #3FB27F">Vue</span> and <span style="color: #7FC728">Node</span>. I
-              also have experience with:
+              I have found myself mainly using <span style="color: #F0DB4F">JavaScript</span>, <span style="color: #3FB27F">Vue</span> and <span style="color: #7FC728">Node</span>. I
+              also have experience with:<br><br>
             <ul>
               <li>Express</li>
-              <li>FileMaker Pro</li>
               <li>Bootstrap</li>
+              <li>FileMaker Pro</li>
+              <li>React</li>
               <li>jQuery</li>
               <li>MySQL</li>
               <li>MongoDB</li>
-              <li>React</li>
+           
 
             </ul>
             </p>
@@ -211,19 +204,19 @@
             data-aos="fade-in"
             class="col-md-4 col-xs-2 mx-auto"
           >
-            <h1 style="color: #1594f3; text-align: left; margin: 20px">
+            <h1 class='techH1'>
               Tools
             </h1>
             <p style="color: white; text-align: left; max-width: 500px">
               While developing, I use quite a few tools to get help get the job done. Outside of frameworks, libraries, etc, here few of my most utilized tools are:
+              <br><br>
             <ul>
-              <li>Git</li>
-              <li>GitHub</li>
+              <li>Git/GitHub</li>
               <li>Postman</li>
-              <li>Chrome Dev Tools</li>
               <li>VS Code</li>
               <li>NPM</li>
-              <li>Bash</li>
+              <li>Bash Shell</li>
+              <li>ChatGPT (ftw)</li>
 
             </ul>
             </p>
@@ -238,7 +231,7 @@
           data-aos-easing="ease-in-out"
           data-aos-duration="1000"
           data-aos="fade-in"
-          style="color: white; margin-top: 10px; position: relative; top: -20px;"
+          style="color: white; margin-top: 0px; position: relative; top: -20px;"
           data-aos-delay="1500"
         ><button
             style="border-radius: 0px; min-width: 30%"
@@ -265,7 +258,7 @@
         data-aos-delay="0"
         data-aos-duration="2000"
         data-aos="fade-in"
-      > Projects</h1>
+      > My Work</h1>
       <p style=""></p>
       <div
         class="container"
@@ -274,8 +267,8 @@
         <div class="row ">
 
           <div
-            class="col-md-12 portfolioCard"
-            style="background-color: #313131"
+            class="col-md-12 portfolioCard cardLight"
+          
           >
             <div class="row">
               <div
@@ -285,9 +278,9 @@
                 data-aos="fade-in"
                 class="col-md-6 col-sm-12"
               >
-                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Moonglade.ai</h1>  
+                <h1 class="portfolioH1">Moonglade</h1>  
 
-                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>moonglade.ai is an AI chatbot powered by OpenAI's ChatGPT-3 models.</i><br /><br />Moonglade.ai is a conversational AI platform that enables users and organizations quickly create natural language-based intelligent chatbot by leveraging OpenAI's large-scale language models. <br><br> Built with React, Node.js, Express & OpenAI.</p>
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>Front-end application powered by OpenAI's ChatGPT-3 models.</i><br /><br />Moonglade.ai is a conversational AI platform that enables users and organizations quickly create natural language-based intelligent chatbot by leveraging OpenAI's large-scale language models. <br><br> Built with React, Node.js, Express & OpenAI.</p>
               </div>
 
               <div class="col-md-6 col-xs-12">
@@ -327,8 +320,8 @@
             data-aos-delay="0"
             data-aos-duration="1000"
             data-aos="fade-in"
-            class="col-md-12 portfolioCard"
-            style="background-color: #0D0D0D"
+            class="col-md-12 portfolioCard cardDark"
+      
           >
             <div class="row">
 
@@ -349,7 +342,7 @@
                 data-aos="fade-in"
                 class="col-md-6 col-sm-12"
               >
-                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">World of Warcraft DB</h1>
+                <h1 class="portfolioH1">World of Warcraft DB</h1>
 
                 <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A database for the best possible items for each class in World of Warcraft: Classic</i><br /> <br />Do you really have time to scour countless websites, compare every item in the game & run mathematical equations to get that 0.01% advantage over the competition? World of Warcraft DB does all of the heavy lifting for you. Now go kill some dragons.<br /><br />Built with React, Node.js, Express and MySQL/Sequelize.</p>
               </div>
@@ -379,8 +372,8 @@
           
 
           <div
-            class="col-md-12 portfolioCard"
-            style="background-color: #313131"
+            class="col-md-12 portfolioCard cardLight"
+       
           >
             <div class="row">
               <div
@@ -390,9 +383,11 @@
                 data-aos="fade-in"
                 class="col-md-6 col-sm-12"
               >
-                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">PI Legal</h1>
+                <h1 class="portfolioH1">PI Legal</h1>
 
-                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A case management application for law firms to log payments, generate documents and monitor the progress of cases</i><br /><br />PI Legal is a robust case management application currently being used by Cambre & Associates in Atlanta, Georgia. <br /><br /> Some of the most recent features I've implemented are report generation, an in-house API for client data retrieval, negotiation offer/demand tracking, statute of limitation alerts, an automated e-mail notification system.</p>
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A case management application for law firms to log payments, generate documents and monitor the progress of cases</i><br /><br />PI Legal is a robust case management application currently being used by Cambre & Associates in Atlanta, Georgia. <br /><br> Some of the most recent features I've implemented are report generation, an in-house API for client data retrieval, negotiation offer/demand tracking, statute of limitation alerts, an automated e-mail notification system.<br/><br/>Built with Vue, Node.js, Express, FileMaker Pro</p> 
+
+
               </div>
 
               <div class="col-md-6 col-xs-12">
@@ -402,7 +397,7 @@
                   data-aos-duration="1400"
                   data-aos="fade-in"
                   class="portfolioImg "
-                  src="../src/assets/PIscreenshot1.png"
+                  src="../src/assets/pilegal-dash.jpg"
                 />
               </div>
 
@@ -430,8 +425,7 @@
             data-aos-delay="0"
             data-aos-duration="1000"
             data-aos="fade-in"
-            class="col-md-12 portfolioCard"
-            style="background-color: #0D0D0D"
+            class="col-md-12 portfolioCard cardDark"
           >
             <div class="row">
 
@@ -452,9 +446,9 @@
                 data-aos="fade-in"
                 class="col-md-6 col-sm-12"
               >
-                <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Digital Asset Monitor</h1>
+                <h1 class="portfolioH1">Digital Asset Monitor</h1>
 
-                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A minimalist approach to tracking the price action and news for the top three digital assets.</i><br /><br />Digital Asset Monitor provides users with prices, news articles and latest tweets for the top three cryptocurrencies by market cap.</p>
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A minimalist approach to tracking price & news for some of the most popular digital assets.</i><br /><br />Digital Asset Monitor provides users with prices, news articles and latest tweets for Bitcoin, Ethereum and XRP <br> <br/>Built with HTML/CSS, JavaScript, jQuery and several APIs (Twitter, Nomics, etc)</p>
               </div>
 
               <hr style="border-top: 1px solid white; margin: 20px" />
@@ -479,7 +473,7 @@
 
           <p style="margin: 20px;"></p>
 
-          <div class="col-md-12 portfolioCard">
+          <div class="col-md-12 portfolioCard cardLight">
             <div class="row">
               <div
                 data-aos-easing="ease-in-out"
@@ -490,7 +484,7 @@
               >
                 <h1 style="color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;">Bandwagon</h1>
 
-                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A digital music streaming platform designed with listeners and artists in mind.</i><br /><br />Users are allotted a number of tokens based on their subscription plan. Every time a user streams a song, a microtransaction takes place sending a fraction of a token directly to the artist. This model completely removes middlemen cutting into the artists' profits. <br /><br /> Future development roadmap entails utilizing <span class="blueSpan">XRP</span> instead of the Bandwagon token.</p>
+                <p style="color: white; text-align: left;"><i style='font-size: 13px;'>A digital music streaming platform designed with listeners and artists in mind.</i><br /><br />Users are allotted a number of tokens based on their subscription plan. Every time a user streams a song, a microtransaction takes place sending a fraction of a token directly to the artist. This model completely removes middlemen cutting into the artists' profits. <br /><br /> Future development roadmap entails utilizing <span class="blueSpan">XRP</span> instead of the Bandwagon token. <br/><br/>Built with React, Node.js, Express, MongoDB and AWS S3.</p>
               </div>
               <div class="col-md-6 col-xs-12">
                 <img
@@ -522,92 +516,21 @@
             </div>
           </div>
         </div>
-      </div>    <br><br><br>    <br><br><br>    <br><br>
-    </section>
-    <br><br><br>    <br><br>
-    <!-- <section
-      id="contact"
-      style="background-color: #171c21; padding-top: 2%; padding-bottom: 10%; !important;"
-      class='container'
-    >
-      <div class="row">
-        <div class="mx-auto ">
-          <h6
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-            data-aos-duration="2000"
-            data-aos="fade-in"
-            class=" col-12"
-            id="build"
-            style="text-align: center !important; color: white; font-size: 22px;"
-          >Let's <span class="blueSpan">build</span> something.</h6>
-
-          <br />
-          <form
-            data-aos-easing="ease-in-out"
-            data-aos-delay="1500"
-            data-aos-duration="2000"
-            data-aos="fade-in"
-            style=""
-            method="post"
-            action="https://formspree.io/mbjodlrz"
-            data-form-title="CONTACT"
-          >
-            <input
-              type="hidden"
-              data-form-email="true"
-            >
-            <div class="form-group">
-              <input
-                type="text"
-                class=" form-control"
-                name="name"
-                required=""
-                placeholder="Name*"
-                data-form-field="Name"
-              >
-            </div>
-            <div class="form-group">
-              <input
-                type="email"
-                class=" form-control"
-                name="email"
-                required=""
-                placeholder="Email*"
-                data-form-field="Email"
-              >
-            </div>
-            <div class="form-group">
-              <input
-                type="tel"
-                class=" form-control"
-                name="phone"
-                placeholder="Phone"
-                data-form-field="Phone"
-              >
-            </div>
-            <div class="form-group">
-              <textarea
-                style="border-radius: 0px;"
-                class="wow zoomIn form-control fadeInLeftBig"
-                name="message"
-                placeholder="Message"
-                rows="7"
-                data-form-field="Message"
-              ></textarea>
-            </div>
-            <button
-              id="button"
-              style="margin: 0 auto;"
-              type="submit"
-              class="btn btn-lg btn-dark col-sm-12 wow zoomIn"
-            >submit</button>
-
-          </form>
-
-        </div>
       </div>
-    </section> -->
+
+      <a
+          data-scroll
+          href="#"
+          class=""
+        ><button
+            style="border-radius: 0px; min-width: 10%"
+            class="btn portfolioButton hvr-underline-from-left"
+          >
+          Back to Top
+          </button></a>
+    
+    </section>
+
 
   </div>
 </template>
@@ -615,14 +538,14 @@
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import "bootstrap/dist/css/bootstrap.css";
-import VVanta from "vue-vanta";
+// import VVanta from "vue-vanta";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default {
-  components: { VVanta },
+  // components: { VVanta },
   created() {
     AOS.init();
     document.title = "Alex Gignilliat";
@@ -668,14 +591,30 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+
 html {
   scroll-behavior: smooth;
   max-width: 100%;
   background-color: #171c21;
 }
 
+#techTop {
+  padding-top: 55px;
+}
+
+.techH1 {
+   color: #1594f3; text-align: left; margin: 20px
+    
+  }
+
+
 .blueSpan {
   color: #1594f3;
+}
+
+#about {
+  padding: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -685,10 +624,19 @@ html {
     padding: 0;
   }
 
+  #techTop {
+  padding-top: 0px;
+}
+
+.techH1 {
+  text-align: center;
+}
+
   #vanta {
     margin-bottom: 10%;
   }
 
+ 
   #projectHeader {
     font-size: 80px !important;
   }
@@ -701,11 +649,19 @@ html {
   #technologies {
     margin: 0;
     margin-bottom: 10%;
+    height: 120vh; 
+    background-color: #171c21; 
+    padding-top: 1% !important;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   #portfolio {
     margin-top: 1000px;
     margin-bottom: 800px;
+    padding-bottom: 500px;
   }
 
   /* h1 {
@@ -718,7 +674,7 @@ html {
   }
 
   .tagline {
-    font-size: 14px !important;
+    font-size: 20px !important;
   }
 
   .fa-js,
@@ -780,7 +736,26 @@ body {
 .portfolioImg {
   width: 100%;
   margin: 0 auto;
-  border-radius: 20px;
+
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.322);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 1px;
+}
+
+.portfolioH1 {
+  color: #1594f3;; font-size: 3rem; margin: 1%; text-align: left;
+}
+
+.cardDark{
+  background-color: #000000;
+
+}
+
+
+
+.cardLight {
+  background-color: #37373a;
+
 }
 
 .portfolioCard {
@@ -788,8 +763,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #313131;
-  padding-top: 40px;
+
+  padding: 40px;
+  max-height: 75vh
 }
 
 #nameBox {
@@ -819,11 +795,16 @@ body {
 }
 
 .portfolioButton {
-  background-color: rgba(255, 255, 255, 0.61);
+  background-color: rgba(255, 255, 255, 0.788);
   margin: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0px 0px 2px rgba(165, 165, 165, 0.212);
+  border: 1px solid rgba(255, 255, 255, 0.192);
 }
 .portfolioButton:hover {
   background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.205);
 }
 
 .hero-area {
